@@ -190,8 +190,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero1.jpg") top center;
+  background: url("../img/hero1.jpg");
   background-size: cover;
+  -khtml-opacity:.50; 
+  -moz-opacity:.50; 
+  -ms-filter:"alpha(opacity=50)";
+   filter:alpha(opacity=50);
+   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+   opacity:3.6; 
 }
 #hero:before {
   content: "";
