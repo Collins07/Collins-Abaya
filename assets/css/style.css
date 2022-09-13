@@ -192,16 +192,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/hero1.jpg");
   background-size: cover;
-  -khtml-opacity:.50; 
-  -moz-opacity:.50; 
-  -ms-filter:"alpha(opacity=50)";
-   filter:alpha(opacity=50);
-   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
-   opacity:3.6; 
+
+  background-blend-mode: darken;
 }
-#hero:before {
+/* #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
+  background-blend-mode: darken;
   position: absolute;
   height: 100%;
   bottom: 0;
@@ -209,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 1;
-}
+} */
 #hero .hero-container {
   position: relative;
   z-index: 2;
