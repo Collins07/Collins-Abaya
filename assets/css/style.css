@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   color: #a8a9b4;
-  padding: 12px 15px;
+  padding: 10px 12px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
@@ -182,6 +182,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 .mobile-nav-active #header {
   left: 0;
+}
+#cv-link{
+  background-color: #2eafec;
+  color: black;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#download{
+  color: black;
 }
 
 /*--------------------------------------------------------------
