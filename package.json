@@ -1,0 +1,13 @@
+{
+  "name": "collins-abaya-portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
